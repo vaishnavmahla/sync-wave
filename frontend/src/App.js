@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import io from 'socket.io-client';
-import { Play, SkipForward, Users, Radio, CloudUpload } from 'lucide-react';
+import { Play, Users, Radio, CloudUpload } from 'lucide-react';
 
 const SOCKET_URL = process.env.REACT_APP_SERVER_URL || "http://localhost:3000";
 const socket = io(SOCKET_URL);
